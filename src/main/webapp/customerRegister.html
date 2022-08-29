@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register New Customer</title>
+</head>
+<body>
+	<form action="/BankingSystem/CustomerRegister">
+		<!-- /project/servlet -->
+		<fieldset>
+			<legend>Customer Registration</legend>
+
+			<table>
+
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="cname"></td>
+
+				</tr>
+
+				<tr>
+					<td>Username</td>
+					<td><input type="text" name="cusername"></td>
+
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="text" name="cpassword"></td>
+
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" name="cemail"></td>
+
+				</tr>
+				<tr>
+					<td>Security Question</td>
+					<td><select name="qns">
+							<!--Can use size="4" or multiple-->
+							<option>Favourite color?</option>
+							<option>Mother's first name</option>
+							<option disabled>First pet's name</option>
+					</select></td>
+
+				</tr>
+				<tr>
+					<td>Answer</td>
+					<td><input type="text" name="answer"></td>
+
+				</tr>
+
+				<tr>
+					<td><input type="submit" value="Register"></td>
+				</tr>
+
+
+			</table>
+
+		</fieldset>
+	</form>
+</body>
+</html>
